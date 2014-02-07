@@ -4,7 +4,6 @@ var path = require('path');
 
 // Route Controllers
 var routes = require('./routes');
-var user = require('./routes/user');
 var atlassian = require('./routes/atlassian');
 
 var app = express();
