@@ -1,0 +1,41 @@
+{
+  "name": "atlassian-trello-integration",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "http://www.m3-health.com",
+  "keywords": [
+    "jira",
+    "trello",
+    "atlassian"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Keith Rosenberg",
+    "email": "krosenberg@m3-health.com",
+    "url": "github.com/netpoetica"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "src/main.js",
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "node-trello": "~0.1.4",
+    "jade": "*"
+  },
+  "devDependencies": {
+  },
+  "private": true 
+}
+
