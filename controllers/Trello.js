@@ -1,4 +1,4 @@
-module.exports = function(trello, organizatio, organization){
+module.exports = function(trello, organization){
 
   // ////////////////// //
   // Private functions. //
