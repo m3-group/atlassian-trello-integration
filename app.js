@@ -3,7 +3,6 @@ var http = require('http');
 var path = require('path');
 
 // Route Controllers
-var routes = require('./routes');
 var atlassian = require('./routes/atlassian');
 
 var app = express();
